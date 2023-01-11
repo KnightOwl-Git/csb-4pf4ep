@@ -30,14 +30,6 @@ a {
   color: #89efff;
 }
 
-#ben {
-  position: absolute;
-
-  mix-blend-mode: screen;
-  animation: flicker 4s infinite;
-  animation: houseHover 5s infinite;
-}
-
 #scene {
   position: absolute;
   width: 100%;
@@ -55,16 +47,21 @@ a {
     justify-content: center;
 
     left: -222%;
-    top: -30%;
     clip-path: inset(0, 0, 0, 0);
   }
   .video {
     display: none;
   }
   #ben {
-    width: 20%;
-    left: -222%;
   }
+}
+
+#ben {
+  position: absolute;
+
+  mix-blend-mode: screen;
+  animation: flicker 4s infinite;
+  animation: houseHover 5s infinite;
 }
 
 #scene img {
